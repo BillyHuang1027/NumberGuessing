@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		2FE602B2260B6BD100EA1A6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE602B1260B6BD100EA1A6B /* AppDelegate.swift */; };
 		2FE602B4260B6BD100EA1A6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE602B3260B6BD100EA1A6B /* SceneDelegate.swift */; };
-		2FE602B6260B6BD100EA1A6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE602B5260B6BD100EA1A6B /* ViewController.swift */; };
 		2FE602B9260B6BD100EA1A6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE602B7260B6BD100EA1A6B /* Main.storyboard */; };
 		2FE602BB260B6BD500EA1A6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE602BA260B6BD500EA1A6B /* Assets.xcassets */; };
 		2FE602BE260B6BD500EA1A6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE602BC260B6BD500EA1A6B /* LaunchScreen.storyboard */; };
+		2FE602C6260B6C4400EA1A6B /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE602C5260B6C4400EA1A6B /* MainScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2FE602AE260B6BD100EA1A6B /* NumberGuessing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberGuessing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE602B1260B6BD100EA1A6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FE602B3260B6BD100EA1A6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2FE602B5260B6BD100EA1A6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2FE602B8260B6BD100EA1A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FE602BA260B6BD500EA1A6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FE602BD260B6BD500EA1A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FE602BF260B6BD500EA1A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FE602C5260B6C4400EA1A6B /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				2FE602B1260B6BD100EA1A6B /* AppDelegate.swift */,
 				2FE602B3260B6BD100EA1A6B /* SceneDelegate.swift */,
-				2FE602B5260B6BD100EA1A6B /* ViewController.swift */,
+				2FE602C5260B6C4400EA1A6B /* MainScreenViewController.swift */,
 				2FE602B7260B6BD100EA1A6B /* Main.storyboard */,
 				2FE602BA260B6BD500EA1A6B /* Assets.xcassets */,
 				2FE602BC260B6BD500EA1A6B /* LaunchScreen.storyboard */,
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FE602B6260B6BD100EA1A6B /* ViewController.swift in Sources */,
+				2FE602C6260B6C4400EA1A6B /* MainScreenViewController.swift in Sources */,
 				2FE602B2260B6BD100EA1A6B /* AppDelegate.swift in Sources */,
 				2FE602B4260B6BD100EA1A6B /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGQW468FVZ;
 				INFOPLIST_FILE = NumberGuessing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGQW468FVZ;
 				INFOPLIST_FILE = NumberGuessing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
